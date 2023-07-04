@@ -1,4 +1,4 @@
-import { GitHub, LinkedIn } from "@mui/icons-material";
+import { GitHub, LinkedIn, MailRounded } from "@mui/icons-material";
 import { Box, Avatar, Typography, IconButton } from "@mui/material";
 import avatar from "../../assets/farnood - mehr 1399.jpg";
 
@@ -31,6 +31,23 @@ const SidebarHeader = () => {
         Front-end Developer
       </Typography>
       <Box sx={{ margin: "0 auto", textAlign: "center" }}>
+        <IconButton>
+          <a
+            href="mailto:farnood.molaie@gmail.com"
+            alt="email"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <MailRounded
+              sx={{
+                color: "gray",
+                "&:hover": {
+                  color: "#ffff",
+                },
+              }}
+            />
+          </a>
+        </IconButton>
         <IconButton>
           <a
             href="https://github.com/FarnoodMollaie/farnood.git"

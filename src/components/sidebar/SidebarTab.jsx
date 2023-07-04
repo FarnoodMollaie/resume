@@ -51,6 +51,7 @@ const SidebarTab = () => {
           sx={{
             borderRadius: 5,
             backgroundColor: grey[800],
+            color:"#ff79c6",
             mx: 1,
             my: 0.5,
             "&.MuiTab-root": {
